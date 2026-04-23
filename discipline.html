@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Advocate - Disciplined Action</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="discipline.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-dot"></span>
+      Life Advocate
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="wellness.html">Wellness</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="discipline-hero">
+      <p class="hero-eyebrow">Pillar Three</p>
+      <h1>Disciplined <em>Action</em></h1>
+      <p class="hero-copy">Plan your day with clear tasks, check them off as you finish, and keep your progress saved in your database.</p>
+    </section>
+
+    <section class="task-app" aria-label="Daily task manager">
+      <div class="task-app-header">
+        <div>
+          <h2>Daily Task Manager</h2>
+          <p>Choose a date, add tasks, and stay consistent.</p>
+        </div>
+        <label class="date-group" for="taskDate">
+          Date
+          <input id="taskDate" type="date">
+        </label>
+      </div>
+
+      <form id="taskForm" class="task-form">
+        <input id="taskInput" type="text" maxlength="255" placeholder="Add one focused task..." required>
+        <button type="submit">Add Task</button>
+      </form>
+
+      <p id="taskError" class="task-error" aria-live="polite"></p>
+
+      <ul id="taskList" class="task-list" aria-live="polite"></ul>
+
+      <div class="task-footer">
+        <span id="taskSummary">0 of 0 completed</span>
+        <button id="clearDoneBtn" type="button" class="ghost-btn">Clear completed</button>
+      </div>
+    </section>
+  </main>
+
+  <footer id="about">
+    <div class="footer-top">
+      <div class="footer-about">
+        <span class="footer-brand">Life Advocate</span>
+        <p class="footer-tagline">A Holistic Career and Wellness Ecosystem designed to guide you toward a balanced, fulfilling life through data-driven direction, mindful support, and disciplined action.</p>
+      </div>
+      <div class="footer-contact">
+        <span class="footer-contact-title">Contact Us</span>
+        
+      </div>
+    </div>
+  </footer>
+
+  <script src="discipline.js"></script>
+</body>
+</html>

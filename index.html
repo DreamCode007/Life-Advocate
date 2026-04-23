@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Advocate — Data-Driven Direction. Mindful Support. Disciplined Action.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="stylehome.css">
+
+</head>
+
+<body>
+  
+   
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-dot"></span>
+      Life Advocate
+    </a>
+    <ul class="nav-links">
+      <li><a href="career.html">Career</a></li>
+      <li><a href="wellness.html">Wellness</a></li>
+      <li><a href="discipline.html">Discipline</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="music-btn" class="music-btn" type="button" onclick="document.getElementById('bg-music').muted = !document.getElementById('bg-music').muted" aria-pressed="false">Play Music</button>
+      <a href="#begin" class="nav-cta">Begin</a>
+      
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="hero" style="position:relative;" id="begin">
+      <video class="hero-bg-video" autoplay muted loop playsinline  aria-hidden="true">
+        <source src="assets/home-hero-bg.mp4" type="video/mp4">
+      </video>
+      <div class="hero-gradient"></div>
+
+      <div class="hero-eyebrow">—— Your Holistic Growth Ecosystem ——</div>
+
+      <h1 class="hero-title">
+        Life<br><em>Advocate</em>
+      </h1>
+
+      <p class="hero-subtitle reveal" style="transition-delay:0.2s">
+        <span>Data-Driven</span> Direction.&nbsp;&nbsp;<span>Mindful</span> Support.&nbsp;&nbsp;<span>Disciplined</span>
+        Action.
+      </p>
+
+      <div class="marquee-track" aria-hidden="true" style="width:100vw;margin-top:auto;">
+        <div class="marquee-inner">
+          <span class="marquee-item"><em>Career Direction</em><span class="marquee-dot"></span></span>
+          <span class="marquee-item">Mindful Wellness<span class="marquee-dot"></span></span>
+          <span class="marquee-item"><em>Disciplined Action</em><span class="marquee-dot"></span></span>
+          <span class="marquee-item">Data-Driven Growth<span class="marquee-dot"></span></span>
+          <span class="marquee-item"><em>Holistic Ecosystem</em><span class="marquee-dot"></span></span>
+          <span class="marquee-item">Life Advocate<span class="marquee-dot"></span></span>
+          <!-- Duplicate for seamless scroll -->
+          <span class="marquee-item"><em>Career Direction</em><span class="marquee-dot"></span></span>
+          <span class="marquee-item">Mindful Wellness<span class="marquee-dot"></span></span>
+          <span class="marquee-item"><em>Disciplined Action</em><span class="marquee-dot"></span></span>
+          <span class="marquee-item">Data-Driven Growth<span class="marquee-dot"></span></span>
+          <span class="marquee-item"><em>Holistic Ecosystem</em><span class="marquee-dot"></span></span>
+          <span class="marquee-item">Life Advocate<span class="marquee-dot"></span></span>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="trinity" id="pillars">
+      <video class="card-bg-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+        <source src="assets/card-section-bg.mp4" type="video/mp4">
+      </video>
+      <div class="trinity-grid">
+
+        <div class="pillar-card pillar-1" onclick="window.location.href='career.html'">
+          <video class="card-bg-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+            <source src="assets/card-bg.mp4" type="video/mp4">
+          </video>
+          <span class="card-number">01</span>
+          <div class="card-icon">
+            <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" stroke-width="1.4"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="26" cy="26" r="22" stroke-opacity="0.3" />
+              <path d="M14 36 L20 26 L27 31 L34 18 L40 22" />
+              <circle cx="34" cy="18" r="2.5" fill="currentColor" fill-opacity="0.2" />
+              <line x1="14" y1="36" x2="40" y2="36" stroke-opacity="0.3" />
+              <line x1="14" y1="18" x2="14" y2="36" stroke-opacity="0.3" />
+              <path d="M26 10 L28 16 L26 15 L24 16 Z" fill="currentColor" fill-opacity="0.5" />
+            </svg>
+          </div>
+          <span class="card-tag">Pillar One</span>
+          <h2 class="card-title">Career<br>Direction</h2>
+          <p class="card-desc">AI-powered resume analysis, skills gap mapping, and personalised career pathway
+            modeling. Transform raw potential into strategic momentum.</p>
+          <div class="card-learn">Learn More <svg viewBox="0 0 14 14" fill="none" stroke="currentColor"
+              stroke-width="1.5" stroke-linecap="round">
+              <path d="M2 7h10M8 3l4 4-4 4" />
+            </svg></div>
+        </div>
+
+        <div class="pillar-card pillar-2" onclick="window.location.href='wellness.html'">
+          <video class="card-bg-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+            <source src="assets/card2-bg.mp4" type="video/mp4">
+          </video>
+          <span class="card-number">02</span>
+          <div class="card-icon">
+            <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" stroke-width="1.4"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="26" cy="26" r="22" stroke-opacity="0.3" />
+              <path d="M26 38 C26 38 14 30 14 22 C14 17 19 14 26 18 C33 14 38 17 38 22 C38 30 26 38 26 38Z" />
+              <path d="M26 18 C26 12 21 8 18 10" stroke-opacity="0.5" />
+              <path d="M26 18 C26 12 31 8 34 10" stroke-opacity="0.5" />
+              <circle cx="26" cy="26" r="3.5" />
+              <path d="M26 22 L26 30" stroke-opacity="0.4" />
+            </svg>
+          </div>
+          <span class="card-tag">Pillar Two</span>
+          <h2 class="card-title">Mindful<br>Wellness</h2>
+          <p class="card-desc">Evidence-based mental wellness tools, guided reflection practices, and burnout
+            prevention frameworks. Cultivate inner resilience.</p>
+          <div class="card-learn">Learn More <svg viewBox="0 0 14 14" fill="none" stroke="currentColor"
+              stroke-width="1.5" stroke-linecap="round">
+              <path d="M2 7h10M8 3l4 4-4 4" />
+            </svg></div>
+        </div>
+
+        <div class="pillar-card pillar-3" onclick="window.location.href='discipline.html'">
+          <video class="card-bg-video" style="opacity: 30%;" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+            <source src="assets/card3-bg.mp4" type="video/mp4">
+          </video>
+          <span class="card-number">03</span>
+          <div class="card-icon">
+            <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" stroke-width="1.4"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="26" cy="26" r="22" stroke-opacity="0.3" />
+              <path d="M26 13 L38 18 L38 28 C38 34 32 39 26 41 C20 39 14 34 14 28 L14 18 Z" />
+              <path d="M22 26 L25 29 L30 23" stroke-width="1.6" />
+              <line x1="26" y1="18" x2="26" y2="22" stroke-opacity="0.5" />
+            </svg>
+          </div>
+          <span class="card-tag">Pillar Three</span>
+          <h2 class="card-title">Disciplined<br>Action</h2>
+          <p class="card-desc">Habit architecture, accountability systems, and goal-velocity tracking. Build
+            structures that convert intention into sustained progress.</p>
+          <div class="card-learn">Learn More <svg viewBox="0 0 14 14" fill="none" stroke="currentColor"
+              stroke-width="1.5" stroke-linecap="round">
+              <path d="M2 7h10M8 3l4 4-4 4" />
+            </svg></div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="stats-strip">
+      <div class="stat-item">
+        <div class="stat-value">12k+</div>
+        <div class="stat-label">Lives Guided</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-value">94%</div>
+        <div class="stat-label">Goal Achievement Rate</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-value">3</div>
+        <div class="stat-label">Integrated Pillars</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-value">∞</div>
+        <div class="stat-label">Your Potential</div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer id="about">
+    <div class="footer-top">
+      <div class="footer-about">
+        <span class="footer-brand">Life Advocate</span>
+        <p class="footer-tagline">A Holistic Career & Wellness Ecosystem designed to guide you toward a balanced, fulfilling life through data-driven direction, mindful support, and disciplined action.</p>
+      </div>
+      <div class="footer-contact">
+        <span class="footer-contact-title">Contact Us</span>
+        
+      </div>
+    </div>
+  </footer>
+
+
+  <audio id="bg-music" loop muted autoplay>
+    <source src="careerimages/bg-audio.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="scripthome.js"></script>
+</body>
