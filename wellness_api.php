@@ -25,7 +25,7 @@ if ($userMessage === '') {
   send_json_error('Message is required.', 400);
 }
 
-$apiKey = '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';
+$apiKey = 'API_KEY';
 
 
 if (!$apiKey) {
